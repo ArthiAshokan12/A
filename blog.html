@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> University Website Design </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+         rel="stylesheet">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        </head>
+    <body>
+        <section class ="sub-header">
+         <nav>
+            <a href = "index.html"><img src="images/logo.png"></a>
+            <div class="nav-links"id="navLinks">
+            
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+               <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="course.html">COURSE<a></li>
+                <li> <a href="blog.html">BLOG</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+         </nav>
+          <h1>Our Certificate & Online Programs For 2022</h1>
+      </section>
+     
+
+      <!----------blog page content---------->
+         <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2022</h2>
+                     <p>   All the certificates are issued as per the progress of the students and available after the completion.
+                           By moving the ToC course online, with online tests after each module, the course is now designed to take approximately two months but you can go at your own pace.
+                      <br>  
+                      <p>   All comprehensive material from the original course remains, plus suggested readings.
+                            Each student will receive a syllabus of reading per module, and then take an online test.  
+                            Upon passing the test, they move to the next module. If a student doesn’t pass, they can re-take the test. 
+                            The course is designed to teach both basic and advanced Theory of Change concepts, but it does not teach facilitation. 
+                            However, those who choose can add a module on facilitation tips.</p>
+                       <br> 
+                       <p>  Click here to view course modules.
+                            By moving the ToC course online, with online tests after each module, the course is now designed to take approximately two months but you can go at your own pace.
+                            All comprehensive material from the original course remains, plus suggested readings.
+                            Each student will receive a syllabus of reading per module, and then take an online test.  Upon passing the test, they move to the next module. If a student doesn’t pass, they can re-take the test. The course is designed to teach both basic and advanced Theory of Change concepts, but it does not teach facilitation. However, those who choose can add a module on facilitation tips.
+                            Click here to view course modules.</p>
+                        <br>
+                        <p> A live tutor will be available via email, phone or Skype to guide the student and answer questions.
+                            Upon successful completion of the course and tests, the student will receive a certificate and badge that can be used on their own website or literature and they will be listed on www.theoryofchange.org as Badge holders who have passed the certification course. 
+                            Additionally, we are offering a Basic Course that covers the first four modules of the full course.  No certification, but a letter of completion of Theory of Change Basic Study Course.A live tutor will be available via email, phone or Skype to guide the student and answer questions.
+                            Upon successful completion of the course and tests, the student will receive a certificate and badge that can be used on their own website or literature and they will be listed on www.theoryofchange.org as Badge holders who have passed the certification course. 
+                            Additionally, we are offering a Basic Course that covers the first four modules of the full course.  No certification, but a letter of completion of Theory of Change Basic Study Course.</p>
+                            <div class="comment-box">
+                                <h3>Leave a comment</h3>
+                                     <form class="comment-form">
+                                        <input type="text" placeholder="Enter Name">
+                                        <input type="email" placeholder="Enter Email">
+                                           <textarea rows="5"placeholder="Your comment">
+                                           </textarea>
+                                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                                     </form>
+                            </div>
+                        
+                        
+                </div>
+                <div class="blog-right">
+
+                   <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>38</span>
+                    </div>
+            </div>
+            </div>
+         </section>
+      
+
+<!----------Facilities---------->
+
+
+<!----------Footer---------->
+
+<section class="footer">
+      <h4>ABOUT US</h4>
+      <p>We are providing various courses and greater oppurtunities for the students.<br>This university is opened in 1979 and developed more in todays world.</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      
+</section>
+
+
+
+
+
+
+
+
+
+
+<!----------Javascript For Toggle Menu---------->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+
+
+ </script>
+
+
+ </body>
+</html>
