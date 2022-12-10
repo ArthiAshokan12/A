@@ -7,7 +7,7 @@ $message = $_POST['message'];
 
     /*website email id*/
     
-    $email_from = 'arthiasohokan2001@gmail.com';
+    $email_from = 'info@arthiashokan12.github.io';
 
     /*Form Submission*/
     
